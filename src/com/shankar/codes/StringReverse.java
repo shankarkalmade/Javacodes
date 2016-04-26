@@ -11,12 +11,18 @@ public class StringReverse {
 		System.out.println(reverse1);
 		
 		
+		
+		
+		
 		String reverse2 = reverse2(original);
 		System.out.println(reverse2);
 		
+		
+		
+		
 	}
 
-	private static String reverse2(String original) {
+	public static String reverse2(String original) {
 		
 		int start = 0;
 		int end =original.length()-1;
